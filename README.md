@@ -50,34 +50,6 @@ J'ai donc repris le sommaire du livre et j'y ai ajouté ces notions comme de nou
 
 Statut : ✅ Terminé · 🟡 En cours · ⬜ À faire
 
-## Organisation du repo
-
-Un dossier par structure de données ou par algorithme, avec sa page `.md` à l'intérieur :
-
-```
-src/main/java/org/example/
-├── data_structure/
-│   ├── map/
-│   │   ├── Map.md
-│   │   ├── implementation/
-│   │   └── exercices/
-│   ├── arrays/
-│   │   └── Arrays.md
-│   └── ...
-└── algorithms/
-    ├── binary_search/
-    │   └── BinarySearch.md
-    └── ...
-
-src/test/java/                    # Les tests JUnit, rangés de la même façon
-```
-
-## Lancer les tests
-
-```bash
-mvn test
-```
-
 ## Référence
 
 - Michael T. Goodrich, Roberto Tamassia, Michael H. Goldwasser — *Data Structures and Algorithms in Java*, 6th edition, Wiley.
