@@ -1,4 +1,1 @@
-| Problème | Fait |
-|----------|:----:|
-| fizz buzz | Non |
-| pairs | Non |
+# Algorithm Analysis
