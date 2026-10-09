@@ -39,14 +39,14 @@ J'ai donc repris le sommaire du livre et j'y ai ajouté ces notions comme de nou
 | 9 | Trees | [Trees.md](src/main/java/org/example/data_structure/trees/Trees.md) |
 | 10 | Priority Queues | [PriorityQueue.md](src/main/java/org/example/data_structure/priority_queue/PriorityQueue.md) |
 | 11 | Maps, Hash Tables, and Skip Lists | [Map.md](src/main/java/org/example/data_structure/map/Map.md) · [Set.md](src/main/java/org/example/data_structure/set/Set.md) |
-| 12 | Search Trees | [SearchTrees.md](src/main/java/org/example/data_structure/search_trees/SearchTrees.md) |
-| 13 | Sorting and Selection | [Sorting.md](src/main/java/org/example/algorithms/sorting/Sorting.md) |
-| 14 | Text Processing | [TextProcessing.md](src/main/java/org/example/algorithms/text_processing/TextProcessing.md) |
-| 15 | Graph Algorithms | [Graph.md](src/main/java/org/example/data_structure/graph/Graph.md) |
-| 16 | Memory Management and B-Trees | [BTrees.md](src/main/java/org/example/data_structure/b_trees/BTrees.md) |
-| 17 | Binary Search | [BinarySearch.md](src/main/java/org/example/algorithms/binary_search/BinarySearch.md) |
-| 18 | Dynamic Programming | [DynamicProgramming.md](src/main/java/org/example/algorithms/dynamic_programming/DynamicProgramming.md) |
-| 19 | Greedy | [Greedy.md](src/main/java/org/example/algorithms/greedy/Greedy.md) |
+| 12 | Binary Search | [BinarySearch.md](src/main/java/org/example/algorithms/binary_search/BinarySearch.md) |
+| 13 | Search Trees | [SearchTrees.md](src/main/java/org/example/data_structure/search_trees/SearchTrees.md) |
+| 14 | Sorting and Selection | [Sorting.md](src/main/java/org/example/algorithms/sorting/Sorting.md) |
+| 15 | Text Processing | [TextProcessing.md](src/main/java/org/example/algorithms/text_processing/TextProcessing.md) |
+| 16 | Greedy | [Greedy.md](src/main/java/org/example/algorithms/greedy/Greedy.md) |
+| 17 | Dynamic Programming | [DynamicProgramming.md](src/main/java/org/example/algorithms/dynamic_programming/DynamicProgramming.md) |
+| 18 | Graph Algorithms | [Graph.md](src/main/java/org/example/data_structure/graph/Graph.md) |
+| 19 | Memory Management and B-Trees | [BTrees.md](src/main/java/org/example/data_structure/b_trees/BTrees.md) |
 
 ## Organisation du repo
 
