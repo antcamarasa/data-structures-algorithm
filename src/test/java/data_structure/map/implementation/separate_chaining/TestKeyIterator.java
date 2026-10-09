@@ -1,6 +1,6 @@
 package data_structure.map.implementation.separate_chaining;
 
-import org.example.data_structure.set.MySet;
+import org.example.data_structure.set.implementation.MySet;
 import org.example.data_structure.map.implementation.my_implementation.separate_chaining.MyMapSeparateChaining;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

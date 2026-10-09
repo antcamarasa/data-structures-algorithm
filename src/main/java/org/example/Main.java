@@ -1,6 +1,6 @@
 package org.example;
 
-import org.example.data_structure.fundamental.linked_list.LinkedList;
+import org.example.data_structure.linked_list.implementation.LinkedList;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.

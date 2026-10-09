@@ -1,7 +1,7 @@
 package org.example.data_structure.map.implementation.my_implementation.open_adressing;
 
 import org.example.data_structure.collection.MyCollection;
-import org.example.data_structure.set.MySet;
+import org.example.data_structure.set.implementation.MySet;
 import org.example.data_structure.map.implementation.my_implementation.MyAbstractMap;
 import org.example.data_structure.map.implementation.my_implementation.MyEntry;
 import org.example.data_structure.map.implementation.my_implementation.MyMap;

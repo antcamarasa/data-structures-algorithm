@@ -1,7 +1,7 @@
 package org.example.data_structure.map.implementation.my_implementation;
 
 import org.example.data_structure.collection.MyCollection;
-import org.example.data_structure.set.MySet;
+import org.example.data_structure.set.implementation.MySet;
 
 public interface MyMap<K, V> {
     V put(K key, V value);

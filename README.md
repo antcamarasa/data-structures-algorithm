@@ -28,36 +28,43 @@ J'ai donc construit mon propre sommaire. Chaque notion a sa propre page : le cou
 
 | # | Chapitre | Notions |
 |---|----------|---------|
-| **I** | **Fundamental Data Structures** | [Arrays](docs/01-fundamental-data-structures/Arrays.md) · [Singly Linked List](docs/01-fundamental-data-structures/SinglyLinkedList.md) · [Circularly Linked List](docs/01-fundamental-data-structures/CircularlyLinkedList.md) · [Doubly Linked List](docs/01-fundamental-data-structures/DoublyLinkedList.md) |
-| **II** | **Algorithm Analysis** | [Big-O & Complexity](docs/02-algorithm-analysis/AlgorithmAnalysis.md) |
-| **III** | **Recursion** | [Linear Recursion](docs/03-recursion/LinearRecursion.md) · [Binary Recursion](docs/03-recursion/BinaryRecursion.md) · [Multiple Recursion](docs/03-recursion/MultipleRecursion.md) |
-| **IV** | **Stacks, Queues & Deques** | [Stack](docs/04-stacks-queues-deques/Stack.md) · [Queue](docs/04-stacks-queues-deques/Queue.md) · [Deque](docs/04-stacks-queues-deques/Deque.md) · [Exercices](docs/04-stacks-queues-deques/Exercices.md) |
-| **V** | **Lists & Iterators** | [ArrayList](docs/05-lists-iterators/ArrayList.md) · [Positional List](docs/05-lists-iterators/PositionalList.md) · [Iterators](docs/05-lists-iterators/Iterators.md) · [Exercices](docs/05-lists-iterators/Exercices.md) |
-| **VI** | **Trees** | [General Trees](docs/06-trees/GeneralTrees.md) · [Binary Trees](docs/06-trees/BinaryTrees.md) · [Implementation](docs/06-trees/Implementation.md) · [Traversal Algorithms](docs/06-trees/TraversalAlgorithms.md) · [Exercices](docs/06-trees/Exercices.md) |
-| **VII** | **Priority Queues** | [Priority Queue](docs/07-priority-queues/PriorityQueue.md) · [Implementation](docs/07-priority-queues/Implementation.md) · [Heaps](docs/07-priority-queues/Heaps.md) · [Sorting with a Priority Queue](docs/07-priority-queues/PriorityQueueSort.md) · [Exercices](docs/07-priority-queues/Exercices.md) |
-| **VIII** | **Maps, Hash Tables & Sets** | [Map](docs/08-maps-hash-tables-sets/Map.md) · [Hash Table](docs/08-maps-hash-tables-sets/HashTable.md) · [Sorted Map](docs/08-maps-hash-tables-sets/SortedMap.md) · [Skip List](docs/08-maps-hash-tables-sets/SkipList.md) · [Sets](docs/08-maps-hash-tables-sets/Sets.md) · [Exercices](docs/08-maps-hash-tables-sets/Exercices.md) |
-| **IX** | **Search Trees** | [Binary Search Tree](docs/09-search-trees/BinarySearchTree.md) · [Balanced Search Trees](docs/09-search-trees/BalancedSearchTrees.md) · [AVL Tree](docs/09-search-trees/AVLTree.md) · [Red-Black Tree](docs/09-search-trees/RedBlackTree.md) · [Exercices](docs/09-search-trees/Exercices.md) |
-| **X** | **Sorting & Selection** | [Sorting](docs/10-sorting-selection/Sorting.md) · [Selection](docs/10-sorting-selection/Selection.md) · [Exercices](docs/10-sorting-selection/Exercices.md) |
-| **XI** | **Binary Search** | [Binary Search](docs/11-binary-search/BinarySearch.md) · [Exercices](docs/11-binary-search/Exercices.md) |
-| **XII** | **Two Pointers & Sliding Window** | [Two Pointers](docs/12-two-pointers-sliding-window/TwoPointers.md) · [Sliding Window](docs/12-two-pointers-sliding-window/SlidingWindow.md) · [Exercices](docs/12-two-pointers-sliding-window/Exercices.md) |
-| **XIII** | **Dynamic Programming & Greedy** | [Dynamic Programming](docs/13-dynamic-programming-greedy/DynamicProgramming.md) · [Greedy Method](docs/13-dynamic-programming-greedy/Greedy.md) · [Exercices](docs/13-dynamic-programming-greedy/Exercices.md) |
-| **XIV** | **Text Processing** | [Pattern Matching](docs/14-text-processing/PatternMatching.md) · [Tries](docs/14-text-processing/Tries.md) · [Text Compression](docs/14-text-processing/TextCompression.md) · [Exercices](docs/14-text-processing/Exercices.md) |
-| **XV** | **Graph Algorithms** | [Graph ADT](docs/15-graph-algorithms/GraphADT.md) · [Graph Data Structures](docs/15-graph-algorithms/GraphDataStructures.md) · [Graph Traversals](docs/15-graph-algorithms/GraphTraversals.md) · [Directed Acyclic Graphs](docs/15-graph-algorithms/DirectedAcyclicGraphs.md) · [Shortest Paths](docs/15-graph-algorithms/ShortestPaths.md) · [Minimum Spanning Trees](docs/15-graph-algorithms/MinimumSpanningTrees.md) · [Exercices](docs/15-graph-algorithms/Exercices.md) |
-| **XVI** | **Memory Management & B-Trees** | [Memory Management](docs/16-memory-management-b-trees/MemoryManagement.md) · [Memory Hierarchy & Caching](docs/16-memory-management-b-trees/MemoryHierarchyCaching.md) · [B-Trees](docs/16-memory-management-b-trees/BTrees.md) · [External-Memory Sorting](docs/16-memory-management-b-trees/ExternalMemorySorting.md) · [Exercices](docs/16-memory-management-b-trees/Exercices.md) |
+| **I** | **Fundamental Data Structures** | [Arrays](src/main/java/org/example/data_structure/arrays/doc/Arrays.md) · [Singly Linked List](src/main/java/org/example/data_structure/linked_list/doc/SinglyLinkedList.md) · [Circularly Linked List](src/main/java/org/example/data_structure/linked_list/doc/CircularlyLinkedList.md) · [Doubly Linked List](src/main/java/org/example/data_structure/linked_list/doc/DoublyLinkedList.md) |
+| **II** | **Algorithm Analysis** | [Big-O & Complexity](src/main/java/org/example/algorithms/algorithm_analysis/doc/AlgorithmAnalysis.md) |
+| **III** | **Recursion** | [Linear Recursion](src/main/java/org/example/algorithms/recursion/doc/LinearRecursion.md) · [Binary Recursion](src/main/java/org/example/algorithms/recursion/doc/BinaryRecursion.md) · [Multiple Recursion](src/main/java/org/example/algorithms/recursion/doc/MultipleRecursion.md) |
+| **IV** | **Stacks, Queues & Deques** | [Stack](src/main/java/org/example/data_structure/stack_queue/doc/Stack.md) · [Queue](src/main/java/org/example/data_structure/stack_queue/doc/Queue.md) · [Deque](src/main/java/org/example/data_structure/stack_queue/doc/Deque.md) · [Exercices](src/main/java/org/example/data_structure/stack_queue/exercices/README.md) |
+| **V** | **Lists & Iterators** | [ArrayList](src/main/java/org/example/data_structure/list/doc/ArrayList.md) · [Positional List](src/main/java/org/example/data_structure/list/doc/PositionalList.md) · [Iterators](src/main/java/org/example/data_structure/list/doc/Iterators.md) · [Exercices](src/main/java/org/example/data_structure/list/exercices/README.md) |
+| **VI** | **Trees** | [General Trees](src/main/java/org/example/data_structure/trees/doc/GeneralTrees.md) · [Binary Trees](src/main/java/org/example/data_structure/trees/doc/BinaryTrees.md) · [Implementation](src/main/java/org/example/data_structure/trees/doc/Implementation.md) · [Traversal Algorithms](src/main/java/org/example/data_structure/trees/doc/TraversalAlgorithms.md) · [Exercices](src/main/java/org/example/data_structure/trees/exercices/README.md) |
+| **VII** | **Priority Queues** | [Priority Queue](src/main/java/org/example/data_structure/priority_queue/doc/PriorityQueue.md) · [Implementation](src/main/java/org/example/data_structure/priority_queue/doc/Implementation.md) · [Heaps](src/main/java/org/example/data_structure/priority_queue/doc/Heaps.md) · [Sorting with a Priority Queue](src/main/java/org/example/data_structure/priority_queue/doc/PriorityQueueSort.md) · [Exercices](src/main/java/org/example/data_structure/priority_queue/exercices/README.md) |
+| **VIII** | **Maps, Hash Tables & Sets** | [Map](src/main/java/org/example/data_structure/map/doc/Map.md) · [Hash Table](src/main/java/org/example/data_structure/map/doc/HashTable.md) · [Sorted Map](src/main/java/org/example/data_structure/map/doc/SortedMap.md) · [Skip List](src/main/java/org/example/data_structure/map/doc/SkipList.md) · [Sets](src/main/java/org/example/data_structure/set/doc/Sets.md) · [Exercices](src/main/java/org/example/data_structure/map/exercices/README.md) |
+| **IX** | **Search Trees** | [Binary Search Tree](src/main/java/org/example/data_structure/search_trees/doc/BinarySearchTree.md) · [Balanced Search Trees](src/main/java/org/example/data_structure/search_trees/doc/BalancedSearchTrees.md) · [AVL Tree](src/main/java/org/example/data_structure/search_trees/doc/AVLTree.md) · [Red-Black Tree](src/main/java/org/example/data_structure/search_trees/doc/RedBlackTree.md) · [Exercices](src/main/java/org/example/data_structure/search_trees/exercices/README.md) |
+| **X** | **Sorting & Selection** | [Sorting](src/main/java/org/example/algorithms/sorting/doc/Sorting.md) · [Selection](src/main/java/org/example/algorithms/sorting/doc/Selection.md) · [Exercices](src/main/java/org/example/algorithms/sorting/exercices/README.md) |
+| **XI** | **Binary Search** | [Binary Search](src/main/java/org/example/algorithms/binary_search/doc/BinarySearch.md) · [Exercices](src/main/java/org/example/algorithms/binary_search/exercices/README.md) |
+| **XII** | **Two Pointers & Sliding Window** | [Two Pointers](src/main/java/org/example/algorithms/two_pointers_sliding_window/doc/TwoPointers.md) · [Sliding Window](src/main/java/org/example/algorithms/two_pointers_sliding_window/doc/SlidingWindow.md) · [Exercices](src/main/java/org/example/algorithms/two_pointers_sliding_window/exercices/README.md) |
+| **XIII** | **Dynamic Programming & Greedy** | [Dynamic Programming](src/main/java/org/example/algorithms/dynamic_programming_greedy/doc/DynamicProgramming.md) · [Greedy Method](src/main/java/org/example/algorithms/dynamic_programming_greedy/doc/Greedy.md) · [Exercices](src/main/java/org/example/algorithms/dynamic_programming_greedy/exercices/README.md) |
+| **XIV** | **Text Processing** | [Pattern Matching](src/main/java/org/example/algorithms/text_processing/doc/PatternMatching.md) · [Tries](src/main/java/org/example/algorithms/text_processing/doc/Tries.md) · [Text Compression](src/main/java/org/example/algorithms/text_processing/doc/TextCompression.md) · [Exercices](src/main/java/org/example/algorithms/text_processing/exercices/README.md) |
+| **XV** | **Graph Algorithms** | [Graph ADT](src/main/java/org/example/data_structure/graph/doc/GraphADT.md) · [Graph Data Structures](src/main/java/org/example/data_structure/graph/doc/GraphDataStructures.md) · [Graph Traversals](src/main/java/org/example/data_structure/graph/doc/GraphTraversals.md) · [Directed Acyclic Graphs](src/main/java/org/example/data_structure/graph/doc/DirectedAcyclicGraphs.md) · [Shortest Paths](src/main/java/org/example/data_structure/graph/doc/ShortestPaths.md) · [Minimum Spanning Trees](src/main/java/org/example/data_structure/graph/doc/MinimumSpanningTrees.md) · [Exercices](src/main/java/org/example/data_structure/graph/exercices/README.md) |
+| **XVI** | **Memory Management & B-Trees** | [Memory Management](src/main/java/org/example/data_structure/b_trees/doc/MemoryManagement.md) · [Memory Hierarchy & Caching](src/main/java/org/example/data_structure/b_trees/doc/MemoryHierarchyCaching.md) · [B-Trees](src/main/java/org/example/data_structure/b_trees/doc/BTrees.md) · [External-Memory Sorting](src/main/java/org/example/data_structure/b_trees/doc/ExternalMemorySorting.md) · [Exercices](src/main/java/org/example/data_structure/b_trees/exercices/README.md) |
 
 ## Organisation du repo
 
+Chaque notion a son propre dossier, qui regroupe tout ce qui la concerne :
+
 ```
-.
-├── docs/                         # Une page .md par notion, rangée par chapitre
-│   ├── 01-fundamental-data-structures/
-│   ├── ...
-│   └── 16-memory-management-b-trees/
-└── src/
-    ├── main/java/org/example/
-    │   ├── data_structure/       # Implémentations des structures de données
-    │   └── algorithms/           # Implémentations des algorithmes et patterns
-    └── test/java/                # Tests JUnit
+src/main/java/org/example/
+├── data_structure/
+│   ├── map/
+│   │   ├── implementation/       # Mon implémentation de la structure
+│   │   ├── exercices/            # Les exercices (+ README.md avec la liste)
+│   │   └── doc/                  # Le cours : définition, complexité, à retenir
+│   ├── arrays/
+│   ├── linked_list/
+│   └── ...
+└── algorithms/
+    ├── binary_search/
+    ├── two_pointers_sliding_window/
+    └── ...
+
+src/test/java/                    # Les tests JUnit, rangés de la même façon
 ```
 
 ## Lancer les tests
