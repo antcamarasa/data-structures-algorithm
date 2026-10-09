@@ -28,23 +28,25 @@ J'ai donc repris le sommaire du livre et j'y ai ajouté ces notions comme de nou
 
 | # | Chapitre | Page |
 |:-:|----------|------|
-| 3 | Fundamental Data Structures | [Arrays.md](src/main/java/org/example/data_structure/arrays/Arrays.md) · [LinkedList.md](src/main/java/org/example/data_structure/linked_list/LinkedList.md) |
+| 1 | Fundamental Data Structures | [Arrays.md](src/main/java/org/example/data_structure/arrays/Arrays.md) · [LinkedList.md](src/main/java/org/example/data_structure/linked_list/LinkedList.md) |
+| 2 | Two Pointers | [TwoPointers.md](src/main/java/org/example/algorithms/two_pointers/TwoPointers.md) |
+| 3 | Sliding Window | [SlidingWindow.md](src/main/java/org/example/algorithms/sliding_window/SlidingWindow.md) |
 | 4 | Algorithm Analysis | [AlgorithmAnalysis.md](src/main/java/org/example/algorithms/algorithm_analysis/AlgorithmAnalysis.md) |
 | 5 | Recursion | [Recursion.md](src/main/java/org/example/algorithms/recursion/Recursion.md) |
-| 6 | Stacks, Queues, and Deques | [StackQueue.md](src/main/java/org/example/data_structure/stack_queue/StackQueue.md) |
-| 7 | List and Iterator ADTs | [List.md](src/main/java/org/example/data_structure/list/List.md) |
-| 8 | Trees | [Trees.md](src/main/java/org/example/data_structure/trees/Trees.md) |
-| 9 | Priority Queues | [PriorityQueue.md](src/main/java/org/example/data_structure/priority_queue/PriorityQueue.md) |
-| 10 | Maps, Hash Tables, and Skip Lists | [Map.md](src/main/java/org/example/data_structure/map/Map.md) · [Set.md](src/main/java/org/example/data_structure/set/Set.md) |
-| 11 | Search Trees | [SearchTrees.md](src/main/java/org/example/data_structure/search_trees/SearchTrees.md) |
-| 12 | Sorting and Selection | [Sorting.md](src/main/java/org/example/algorithms/sorting/Sorting.md) |
-| 13 | Text Processing | [TextProcessing.md](src/main/java/org/example/algorithms/text_processing/TextProcessing.md) |
-| 14 | Graph Algorithms | [Graph.md](src/main/java/org/example/data_structure/graph/Graph.md) |
-| 15 | Memory Management and B-Trees | [BTrees.md](src/main/java/org/example/data_structure/b_trees/BTrees.md) |
-| 16 | Binary Search | [BinarySearch.md](src/main/java/org/example/algorithms/binary_search/BinarySearch.md) |
-| 17 | Two Pointers and Sliding Window | [TwoPointersSlidingWindow.md](src/main/java/org/example/algorithms/two_pointers_sliding_window/TwoPointersSlidingWindow.md) |
-| 18 | Dynamic Programming and Greedy | [DynamicProgrammingGreedy.md](src/main/java/org/example/algorithms/dynamic_programming_greedy/DynamicProgrammingGreedy.md) |
-| 19 | Backtracking | [Backtracking.md](src/main/java/org/example/algorithms/backtracking/Backtracking.md) |
+| 6 | Backtracking | [Backtracking.md](src/main/java/org/example/algorithms/backtracking/Backtracking.md) |
+| 7 | Stacks, Queues, and Deques | [Stack.md](src/main/java/org/example/data_structure/stack_queue/stack/Stack.md) · [Queue.md](src/main/java/org/example/data_structure/stack_queue/queue/Queue.md) · [Deque.md](src/main/java/org/example/data_structure/stack_queue/deque/Deque.md) |
+| 8 | List and Iterator ADTs | [List.md](src/main/java/org/example/data_structure/list/List.md) |
+| 9 | Trees | [Trees.md](src/main/java/org/example/data_structure/trees/Trees.md) |
+| 10 | Priority Queues | [PriorityQueue.md](src/main/java/org/example/data_structure/priority_queue/PriorityQueue.md) |
+| 11 | Maps, Hash Tables, and Skip Lists | [Map.md](src/main/java/org/example/data_structure/map/Map.md) · [Set.md](src/main/java/org/example/data_structure/set/Set.md) |
+| 12 | Search Trees | [SearchTrees.md](src/main/java/org/example/data_structure/search_trees/SearchTrees.md) |
+| 13 | Sorting and Selection | [Sorting.md](src/main/java/org/example/algorithms/sorting/Sorting.md) |
+| 14 | Text Processing | [TextProcessing.md](src/main/java/org/example/algorithms/text_processing/TextProcessing.md) |
+| 15 | Graph Algorithms | [Graph.md](src/main/java/org/example/data_structure/graph/Graph.md) |
+| 16 | Memory Management and B-Trees | [BTrees.md](src/main/java/org/example/data_structure/b_trees/BTrees.md) |
+| 17 | Binary Search | [BinarySearch.md](src/main/java/org/example/algorithms/binary_search/BinarySearch.md) |
+| 18 | Dynamic Programming | [DynamicProgramming.md](src/main/java/org/example/algorithms/dynamic_programming/DynamicProgramming.md) |
+| 19 | Greedy | [Greedy.md](src/main/java/org/example/algorithms/greedy/Greedy.md) |
 
 ## Organisation du repo
 
