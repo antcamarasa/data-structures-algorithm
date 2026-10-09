@@ -59,6 +59,4 @@
 
 ## Exercices
 
-| # | Exercice | Difficulté | Solution |
-|---|----------|------------|----------|
-| 1 | | | |
+Pas d'exercices pour ce chapitre dans la Striver A2Z Sheet : ce chapitre se travaille avec le livre.
