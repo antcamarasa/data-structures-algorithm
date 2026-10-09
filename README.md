@@ -26,29 +26,29 @@ J'ai donc repris le sommaire du livre et j'y ai ajouté ces notions comme de nou
 
 ## Sommaire
 
-| # | Chapitre | Page | Avancement |
+| # | Chapitre | Doc | Statut |
 |:-:|----------|------|:---:|
-| 1 | Fundamental Data Structures | [Arrays.md](src/main/java/org/example/data_structure/arrays/Arrays.md) · [LinkedList.md](src/main/java/org/example/data_structure/linked_list/LinkedList.md) | ⬜ |
-| 2 | Two Pointers | [TwoPointers.md](src/main/java/org/example/algorithms/two_pointers/TwoPointers.md) | ⬜ |
-| 3 | Sliding Window | [SlidingWindow.md](src/main/java/org/example/algorithms/sliding_window/SlidingWindow.md) | ⬜ |
-| 4 | Algorithm Analysis | [AlgorithmAnalysis.md](src/main/java/org/example/algorithms/algorithm_analysis/AlgorithmAnalysis.md) | ⬜ |
-| 5 | Recursion | [Recursion.md](src/main/java/org/example/algorithms/recursion/Recursion.md) | ⬜ |
-| 6 | Backtracking | [Backtracking.md](src/main/java/org/example/algorithms/backtracking/Backtracking.md) | ⬜ |
-| 7 | Stacks, Queues, and Deques | [Stack.md](src/main/java/org/example/data_structure/stack_queue/stack/Stack.md) · [Queue.md](src/main/java/org/example/data_structure/stack_queue/queue/Queue.md) · [Deque.md](src/main/java/org/example/data_structure/stack_queue/deque/Deque.md) | ⬜ |
-| 8 | List and Iterator ADTs | [List.md](src/main/java/org/example/data_structure/list/List.md) | ⬜ |
-| 9 | Trees | [Trees.md](src/main/java/org/example/data_structure/trees/Trees.md) | ⬜ |
-| 10 | Priority Queues | [PriorityQueue.md](src/main/java/org/example/data_structure/priority_queue/PriorityQueue.md) | ⬜ |
-| 11 | Maps, Hash Tables, and Skip Lists | [Map.md](src/main/java/org/example/data_structure/map/Map.md) · [Set.md](src/main/java/org/example/data_structure/set/Set.md) | ⬜ |
-| 12 | Binary Search | [BinarySearch.md](src/main/java/org/example/algorithms/binary_search/BinarySearch.md) | ⬜ |
-| 13 | Search Trees | [SearchTrees.md](src/main/java/org/example/data_structure/search_trees/SearchTrees.md) | ⬜ |
-| 14 | Sorting and Selection | [Sorting.md](src/main/java/org/example/algorithms/sorting/Sorting.md) | ⬜ |
-| 15 | Text Processing | [TextProcessing.md](src/main/java/org/example/algorithms/text_processing/TextProcessing.md) | ⬜ |
-| 16 | Greedy | [Greedy.md](src/main/java/org/example/algorithms/greedy/Greedy.md) | ⬜ |
-| 17 | Dynamic Programming | [DynamicProgramming.md](src/main/java/org/example/algorithms/dynamic_programming/DynamicProgramming.md) | ⬜ |
-| 18 | Graph Algorithms | [Graph.md](src/main/java/org/example/data_structure/graph/Graph.md) | ⬜ |
-| 19 | Memory Management and B-Trees | [BTrees.md](src/main/java/org/example/data_structure/b_trees/BTrees.md) | ⬜ |
+| 1 | Fundamental Data Structures | [Arrays.md](src/main/java/org/example/data_structure/arrays/Arrays.md) · [LinkedList.md](src/main/java/org/example/data_structure/linked_list/LinkedList.md) | À faire |
+| 2 | Two Pointers | [TwoPointers.md](src/main/java/org/example/algorithms/two_pointers/TwoPointers.md) | À faire |
+| 3 | Sliding Window | [SlidingWindow.md](src/main/java/org/example/algorithms/sliding_window/SlidingWindow.md) | À faire |
+| 4 | Algorithm Analysis | [AlgorithmAnalysis.md](src/main/java/org/example/algorithms/algorithm_analysis/AlgorithmAnalysis.md) | À faire |
+| 5 | Recursion | [Recursion.md](src/main/java/org/example/algorithms/recursion/Recursion.md) | À faire |
+| 6 | Backtracking | [Backtracking.md](src/main/java/org/example/algorithms/backtracking/Backtracking.md) | À faire |
+| 7 | Stacks, Queues, and Deques | [Stack.md](src/main/java/org/example/data_structure/stack_queue/stack/Stack.md) · [Queue.md](src/main/java/org/example/data_structure/stack_queue/queue/Queue.md) · [Deque.md](src/main/java/org/example/data_structure/stack_queue/deque/Deque.md) | À faire |
+| 8 | List and Iterator ADTs | [List.md](src/main/java/org/example/data_structure/list/List.md) | À faire |
+| 9 | Trees | [Trees.md](src/main/java/org/example/data_structure/trees/Trees.md) | À faire |
+| 10 | Priority Queues | [PriorityQueue.md](src/main/java/org/example/data_structure/priority_queue/PriorityQueue.md) | À faire |
+| 11 | Maps, Hash Tables, and Skip Lists | [Map.md](src/main/java/org/example/data_structure/map/Map.md) · [Set.md](src/main/java/org/example/data_structure/set/Set.md) | À faire |
+| 12 | Binary Search | [BinarySearch.md](src/main/java/org/example/algorithms/binary_search/BinarySearch.md) | À faire |
+| 13 | Search Trees | [SearchTrees.md](src/main/java/org/example/data_structure/search_trees/SearchTrees.md) | À faire |
+| 14 | Sorting and Selection | [Sorting.md](src/main/java/org/example/algorithms/sorting/Sorting.md) | À faire |
+| 15 | Text Processing | [TextProcessing.md](src/main/java/org/example/algorithms/text_processing/TextProcessing.md) | À faire |
+| 16 | Greedy | [Greedy.md](src/main/java/org/example/algorithms/greedy/Greedy.md) | À faire |
+| 17 | Dynamic Programming | [DynamicProgramming.md](src/main/java/org/example/algorithms/dynamic_programming/DynamicProgramming.md) | À faire |
+| 18 | Graph Algorithms | [Graph.md](src/main/java/org/example/data_structure/graph/Graph.md) | À faire |
+| 19 | Memory Management and B-Trees | [BTrees.md](src/main/java/org/example/data_structure/b_trees/BTrees.md) | À faire |
 
-✅ terminé · 🟡 en cours · ⬜ à faire
+Statut : Terminé · En cours · À faire
 
 ## Organisation du repo
 
