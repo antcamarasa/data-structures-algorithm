@@ -59,38 +59,32 @@
 
 ## Exercices
 
-**Progression : 3 / 12** · ✅ fait : 3 · 🟡 en cours : 1 · ⬜ à faire : 8
+**Progression** · ⭐ Obligatoires : 0 / 3 · Pour creuser : 0 / 2
 
-Source : [Striver A2Z DSA Sheet](https://takeuforward.org/prep-hub/strivers-a2z-dsa-sheet) + mes exercices du projet DSA.
+Statut : ✅ fait · 🟡 en cours · ⬜ à faire
 
-### Basic Hashing
+### 1. Compter les fréquences
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 1 | [Highest Occurring Element in an Array](https://takeuforward.org/practice/dsa/highest-occurring-element-in-an-array) | ⬜ |  | |
-| 2 | [Second Highest Occurring Element](https://takeuforward.org/practice/dsa/second-highest-occurring-element) | ⬜ |  | |
-| 3 | [Sum of Highest and Lowest Frequency](https://takeuforward.org/practice/dsa/sum-of-highest-and-lowest-frequency) | ⬜ |  | |
+> **Concept** — Associer chaque élément à son nombre d'occurrences pour comparer ou trouver le plus fréquent. · [📖 Cours Striver](https://takeuforward.org/learning/dsa/basic-hashing)
 
-### Theory
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 1 | [anagrams](https://structy.net/problems/anagrams) | ⭐ Obligatoire | Structy | ⬜ |
+| 2 | [most frequent char](https://structy.net/problems/most-frequent-char) | ⭐ Obligatoire | Structy | ⬜ |
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 4 | [Basic Hashing](https://takeuforward.org/learning/dsa/basic-hashing) | ⬜ |  | |
+### 2. Chercher un complément
 
-### FAQs
+> **Concept** — Pour chaque élément, chercher dans la map celui qui complète la paire en O(1).
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 5 | [Longest Consecutive Sequence in an Array](https://takeuforward.org/practice/dsa/longest-consecutive-sequence-in-an-array) | ⬜ |  | |
-| 6 | [Longest subarray with sum K](https://takeuforward.org/practice/dsa/longest-subarray-with-sum-k) | ✅ | [LongestSubarrayWithGivenSum.java](../arrays/exercices/easy/LongestSubarrayWithGivenSum.java) · [LongestSubArrayWithSumK.java](../arrays/exercices/medium/LongestSubArrayWithSumK.java) | |
-| 7 | [Largest Subarray with Sum 0](https://takeuforward.org/practice/dsa/largest-subarray-with-sum-0) | ⬜ |  | |
-| 8 | [Count subarrays with given sum](https://takeuforward.org/practice/dsa/count-subarrays-with-given-sum) | ⬜ |  | |
-| 9 | [Count subarrays with given xor K](https://takeuforward.org/practice/dsa/count-subarrays-with-given-xor-k) | ⬜ |  | |
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 3 | [pair sum](https://structy.net/problems/pair-sum) | ⭐ Obligatoire | Structy | ⬜ |
+| 4 | [pair product](https://structy.net/problems/pair-product) | Pour creuser | Structy | ⬜ |
 
-### Mes exercices (projet DSA)
+### 3. Séquences avec une map
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 10 | Implémentation Map — separate chaining | ✅ | [MyMapSeparateChaining.java](implementation/my_implementation/separate_chaining/MyMapSeparateChaining.java) |  |
-| 11 | Implémentation Map — open addressing | 🟡 | [MyMapOpenAddressing.java](implementation/my_implementation/open_adressing/MyMapOpenAddressing.java) | Tests en échec (insertion) |
-| 12 | Counting word frequency | ✅ | [CountingWordFrequency.java](exercices/CountingWordFrequency.java) |  |
+> **Concept** — Utiliser la map pour savoir en O(1) si un voisin existe et ne démarrer une séquence qu'à son début.
+
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 5 | [Longest Consecutive Sequence in an Array](https://takeuforward.org/practice/dsa/longest-consecutive-sequence-in-an-array) | Pour creuser | Striver | ⬜ |

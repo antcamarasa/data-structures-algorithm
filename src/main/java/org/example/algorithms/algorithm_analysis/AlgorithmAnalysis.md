@@ -16,12 +16,15 @@
 
 ## Exercices
 
-**Progression : 0 / 1** · ✅ fait : 0 · 🟡 en cours : 0 · ⬜ à faire : 1
+**Progression** · ⭐ Obligatoires : 0 / 2 · Pour creuser : 0 / 0
 
-Source : [Striver A2Z DSA Sheet](https://takeuforward.org/prep-hub/strivers-a2z-dsa-sheet) + mes exercices du projet DSA.
+Statut : ✅ fait · 🟡 en cours · ⬜ à faire
 
-### Time Complexity
+### 1. Mesurer la complexité
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 1 | [Theory with examples](https://takeuforward.org/learning/dsa/theory-with-examples) | ⬜ |  | |
+> **Concept** — Compter comment le nombre d'opérations grandit avec la taille de l'entrée : O(1), O(log n), O(n), O(n²)… · [📖 Cours Striver](https://takeuforward.org/learning/dsa/theory-with-examples)
+
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 1 | [fizz buzz](https://structy.net/problems/fizz-buzz) | ⭐ Obligatoire | Structy | ⬜ |
+| 2 | [pairs](https://structy.net/problems/pairs) | ⭐ Obligatoire | Structy | ⬜ |

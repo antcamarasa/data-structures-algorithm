@@ -59,36 +59,34 @@
 
 ## Exercices
 
-**Progression : 0 / 20** · ✅ fait : 0 · 🟡 en cours : 0 · ⬜ à faire : 20
+**Progression** · ⭐ Obligatoires : 0 / 4 · Pour creuser : 0 / 3
 
-Source : [Striver A2Z DSA Sheet](https://takeuforward.org/prep-hub/strivers-a2z-dsa-sheet) + mes exercices du projet DSA.
+Statut : ✅ fait · 🟡 en cours · ⬜ à faire
 
-### Theory and Implementation
+### 1. Implémenter un heap
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 1 | [Heaps (Theory Video)](https://takeuforward.org/learning/dsa/heaps-theory) | ⬜ |  | |
-| 2 | [Heapify Algorithm](https://takeuforward.org/practice/dsa/heapify-algorithm) | ⬜ |  | |
-| 3 | [Build heap from a given Array](https://takeuforward.org/practice/dsa/build-heap-from-a-given-array) | ⬜ |  | |
-| 4 | [Implement Min Heap](https://takeuforward.org/practice/dsa/implement-min-heap) | ⬜ |  | |
-| 5 | [Implement Max Heap](https://takeuforward.org/practice/dsa/implement-max-heap) | ⬜ |  | |
-| 6 | [Check if an array represents a min heap](https://takeuforward.org/practice/dsa/check-if-an-array-represents-a-min-heap-) | ⬜ |  | |
-| 7 | [Convert Min Heap to Max Heap](https://takeuforward.org/practice/dsa/convert-min-heap-to-max-heap) | ⬜ |  | |
-| 8 | [Heap Sort](https://takeuforward.org/practice/dsa/heap-sort) | ⬜ |  | |
-| 9 | [K-th Largest element in an array](https://takeuforward.org/practice/dsa/k-th-largest-element-in-an-array) | ⬜ |  | |
+> **Concept** — Un arbre binaire complet stocké dans un tableau, où chaque parent est plus petit (ou plus grand) que ses enfants. · [📖 Cours Striver](https://takeuforward.org/learning/dsa/heaps-theory)
 
-### FAQs
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 1 | [heap insertion](https://structy.net/problems/premium/heap-insertion) | ⭐ Obligatoire | Structy | ⬜ |
+| 2 | [heap deletion](https://structy.net/problems/premium/heap-deletion) | ⭐ Obligatoire | Structy | ⬜ |
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 10 | [Kth largest element in a stream of running integers](https://takeuforward.org/practice/dsa/kth-largest-element-in-a-stream-of-running-integers) | ⬜ |  | |
-| 11 | [Sort K sorted array](https://takeuforward.org/learning/dsa/sort-k-sorted-array) | ⬜ |  | |
-| 12 | [Merge K sorted Lists](https://takeuforward.org/practice/dsa/merge-k-sorted-lists) | ⬜ |  | |
-| 13 | [Replace Elements by Their Rank](https://takeuforward.org/practice/dsa/replace-elements-by-their-rank) | ⬜ |  | |
-| 14 | [Task Scheduler](https://takeuforward.org/practice/dsa/task-scheduler) | ⬜ |  | |
-| 15 | [Hand of Straights](https://takeuforward.org/practice/dsa/hand-of-straights) | ⬜ |  | |
-| 16 | [Design Twitter](https://takeuforward.org/practice/dsa/design-twitter) | ⬜ |  | |
-| 17 | [Minimum Cost to Connect Sticks](https://takeuforward.org/practice/dsa/minimum-cost-to-connect-sticks) | ⬜ |  | |
-| 18 | [Maximum Sum Combination](https://takeuforward.org/practice/dsa/maximum-sum-combination) | ⬜ |  | |
-| 19 | [Find Median from Data Stream](https://takeuforward.org/practice/dsa/find-median-from-data-stream) | ⬜ |  | |
-| 20 | [Top K Frequent Elements](https://takeuforward.org/practice/dsa/top-k-frequent-elements) | ⬜ |  | |
+### 2. Top K
+
+> **Concept** — Garder seulement les k meilleurs éléments dans un heap de taille k.
+
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 3 | [kth-largest](https://structy.net/problems/premium/kth-largest) | ⭐ Obligatoire | Structy | ⬜ |
+| 4 | [k smallest](https://structy.net/problems/premium/k-smallest) | ⭐ Obligatoire | Structy | ⬜ |
+| 5 | [Top K Frequent Elements](https://takeuforward.org/practice/dsa/top-k-frequent-elements) | Pour creuser | Striver | ⬜ |
+
+### 3. Fusionner et flux de données
+
+> **Concept** — Utiliser un ou deux heaps pour fusionner plusieurs sources ou suivre une médiane en continu.
+
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 6 | [Merge K sorted Lists](https://takeuforward.org/practice/dsa/merge-k-sorted-lists) | Pour creuser | Striver | ⬜ |
+| 7 | [Find Median from Data Stream](https://takeuforward.org/practice/dsa/find-median-from-data-stream) | Pour creuser | Striver | ⬜ |

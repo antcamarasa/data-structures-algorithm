@@ -59,4 +59,4 @@
 
 ## Exercices
 
-Pas d'exercices pour ce chapitre dans la Striver A2Z Sheet : ce chapitre se travaille avec le livre.
+Pas de liste d'exercices pour ce chapitre : il se travaille par l'implémentation de la structure.

@@ -85,92 +85,92 @@
 
 ## Exercices
 
-**Progression : 0 / 46** · ✅ fait : 0 · 🟡 en cours : 0 · ⬜ à faire : 46
+**Progression** · ⭐ Obligatoires : 0 / 15 · Pour creuser : 0 / 15
 
-Source : [Striver A2Z DSA Sheet](https://takeuforward.org/prep-hub/strivers-a2z-dsa-sheet) + mes exercices du projet DSA.
+Statut : ✅ fait · 🟡 en cours · ⬜ à faire
 
-### Theory and traversals
+### 1. Parcourir un graphe
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 1 | [Introduction to Graph](https://takeuforward.org/learning/dsa/introduction-to-graph) | ⬜ |  | |
-| 2 | [Traversal Techniques](https://takeuforward.org/practice/dsa/traversal-techniques) | ⬜ |  | |
-| 3 | [Connected Components](https://takeuforward.org/practice/dsa/connected-components) | ⬜ |  | |
+> **Concept** — DFS et BFS sur une liste d'adjacence, avec un ensemble `visited` pour ne pas boucler. · [📖 Cours Striver](https://takeuforward.org/learning/dsa/introduction-to-graph)
 
-### Traversal Problems
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 1 | [has path](https://structy.net/problems/has-path) | ⭐ Obligatoire | Structy | ⬜ |
+| 2 | [undirected path](https://structy.net/problems/undirected-path) | ⭐ Obligatoire | Structy | ⬜ |
+| 3 | [connected components count](https://structy.net/problems/connected-components-count) | ⭐ Obligatoire | Structy | ⬜ |
+| 4 | [largest component](https://structy.net/problems/largest-component) | ⭐ Obligatoire | Structy | ⬜ |
+| 5 | [province sizes](https://structy.net/problems/premium/province-sizes) | Pour creuser | Structy | ⬜ |
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 4 | [Number of provinces](https://takeuforward.org/practice/dsa/number-of-provinces) | ⬜ |  | |
-| 5 | [Number of islands](https://takeuforward.org/practice/dsa/number-of-islands) | ⬜ |  | |
-| 6 | [Flood fill algorithm](https://takeuforward.org/practice/dsa/flood-fill-algorithm) | ⬜ |  | |
-| 7 | [Number of enclaves](https://takeuforward.org/practice/dsa/number-of-enclaves) | ⬜ |  | |
-| 8 | [Rotten Oranges](https://takeuforward.org/practice/dsa/rotten-oranges) | ⬜ |  | |
-| 9 | [Distance of nearest cell having one](https://takeuforward.org/practice/dsa/distance-of-nearest-cell-having-one) | ⬜ |  | |
-| 10 | [Surrounded Regions](https://takeuforward.org/practice/dsa/surrounded-regions) | ⬜ |  | |
-| 11 | [Number of distinct islands](https://takeuforward.org/practice/dsa/number-of-distinct-islands) | ⬜ |  | |
+### 2. Plus court chemin (BFS)
 
-### Cycles
+> **Concept** — Le BFS explore niveau par niveau : la première fois qu'on atteint un nœud, c'est par le plus court chemin.
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 12 | [Detect a cycle in an undirected graph](https://takeuforward.org/practice/dsa/detect-a-cycle-in-an-undirected-graph) | ⬜ |  | |
-| 13 | [Bipartite graph](https://takeuforward.org/practice/dsa/bipartite-graph) | ⬜ |  | |
-| 14 | [Topological sort or Kahn's algorithm](https://takeuforward.org/practice/dsa/topological-sort-or-kahns-algorithm) | ⬜ |  | |
-| 15 | [Detect a cycle in a directed graph](https://takeuforward.org/practice/dsa/detect-a-cycle-in-a-directed-graph) | ⬜ |  | |
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 6 | [shortest path](https://structy.net/problems/shortest-path) | ⭐ Obligatoire | Structy | ⬜ |
+| 7 | [closest carrot](https://structy.net/problems/premium/closest-carrot) | ⭐ Obligatoire | Structy | ⬜ |
+| 8 | [knight attack](https://structy.net/problems/premium/knight-attack) | Pour creuser | Structy | ⬜ |
+| 9 | [best bridge](https://structy.net/problems/premium/best-bridge) | Pour creuser | Structy | ⬜ |
+| 10 | [virus spread](https://structy.net/problems/premium/virus-spread) | Pour creuser | Structy | ⬜ |
 
-### Hard Problems
+### 3. Graphes sur grille
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 16 | [Find eventual safe states](https://takeuforward.org/practice/dsa/find-eventual-safe-states) | ⬜ |  | |
-| 17 | [Course Schedule I](https://takeuforward.org/practice/dsa/course-schedule-i) | ⬜ |  | |
-| 18 | [Course Schedule II](https://takeuforward.org/practice/dsa/course-schedule-ii) | ⬜ |  | |
-| 19 | [Alien Dictionary](https://takeuforward.org/practice/dsa/alient-dictionary) | ⬜ |  | |
-| 20 | [Shortest path in DAG](https://takeuforward.org/practice/dsa/shortest-path-in-dag) | ⬜ |  | |
-| 21 | [Shortest path in undirected graph with unit weights](https://takeuforward.org/practice/dsa/shortest-path-in-undirected-graph-with-unit-weights) | ⬜ |  | |
-| 22 | [Word ladder I](https://takeuforward.org/practice/dsa/word-ladder-i) | ⬜ |  | |
-| 23 | [Word ladder II](https://takeuforward.org/practice/dsa/word-ladder-ii) | ⬜ |  | |
+> **Concept** — Chaque case est un nœud et ses voisins haut, bas, gauche, droite sont ses arêtes.
 
-### Shortest Path Algorithms
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 11 | [island count](https://structy.net/problems/island-count) | ⭐ Obligatoire | Structy | ⬜ |
+| 12 | [minimum island](https://structy.net/problems/minimum-island) | ⭐ Obligatoire | Structy | ⬜ |
+| 13 | [best house build](https://structy.net/problems/premium/best-house-build) | Pour creuser | Structy | ⬜ |
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 24 | [Dijkstra's algorithm](https://takeuforward.org/practice/dsa/dijkstra's-algorithm) | ⬜ |  | |
-| 25 | [Print Shortest Path](https://takeuforward.org/practice/dsa/print-shortest-path-) | ⬜ |  | |
-| 26 | [Shortest Distance in a Binary Maze](https://takeuforward.org/practice/dsa/shortest-path-with-minimum-effort) | ⬜ |  | |
-| 27 | [Path with minimum effort](https://takeuforward.org/practice/dsa/path-with-minimum-effort) | ⬜ |  | |
-| 28 | [Cheapest flight within K stops](https://takeuforward.org/practice/dsa/cheapest-flight-within-k-stops) | ⬜ |  | |
-| 29 | [Minimum multiplications to reach end](https://takeuforward.org/practice/dsa/minimum-multiplications-to-reach-end) | ⬜ |  | |
-| 30 | [Number of ways to arrive at destination](https://takeuforward.org/practice/dsa/number-of-ways-to-arrive-at-destination) | ⬜ |  | |
-| 31 | [Bellman ford algorithm](https://takeuforward.org/practice/dsa/bellman-ford-algorithm) | ⬜ |  | |
-| 32 | [Floyd warshall algorithm](https://takeuforward.org/practice/dsa/floyd-warshall-algorithm) | ⬜ |  | |
-| 33 | [Find the city with the smallest number of neighbors](https://takeuforward.org/practice/dsa/find-the-city-with-the-smallest-number-of-neighbors) | ⬜ |  | |
-| 34 | [Network Delay Time](https://takeuforward.org/practice/dsa/network-delay-time) | ⬜ |  | |
-| 35 | [Swim in Rising Water](https://takeuforward.org/practice/dsa/swim-in-rising-water) | ⬜ |  | |
+### 4. Cycles et ordre topologique
 
-### Minimum Spanning Tree
+> **Concept** — Détecter un cycle avec trois états (non visité, en cours, fini), puis ordonner les nœuds d'un graphe sans cycle.
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 36 | [MST theory](https://takeuforward.org/learning/dsa/mst-theory) | ⬜ |  | |
-| 37 | [Disjoint Set](https://takeuforward.org/practice/dsa/disjoint-set-) | ⬜ |  | |
-| 38 | [Find the MST weight](https://takeuforward.org/practice/dsa/find-the-mst-weight) | ⬜ |  | |
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 14 | [has cycle](https://structy.net/problems/premium/has-cycle) | ⭐ Obligatoire | Structy | ⬜ |
+| 15 | [prereqs possible](https://structy.net/problems/premium/prereqs-possible) | ⭐ Obligatoire | Structy | ⬜ |
+| 16 | [topological order](https://structy.net/problems/premium/topological-order) | ⭐ Obligatoire | Structy | ⬜ |
+| 17 | [safe cracking](https://structy.net/problems/premium/safe-cracking) | Pour creuser | Structy | ⬜ |
+| 18 | [string search](https://structy.net/problems/premium/string-search) | Pour creuser | Structy | ⬜ |
+| 19 | [token transform](https://structy.net/problems/token-transform) | Pour creuser | Structy | ⬜ |
+| 20 | [all trips](https://structy.net/problems/premium/all-trips) | Pour creuser | Structy | ⬜ |
 
-### Hard Problems II
+### 5. Graphes bipartis
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 39 | [Number of operations to make network connected](https://takeuforward.org/practice/dsa/number-of-operations-to-make-network-connected) | ⬜ |  | |
-| 40 | [Accounts merge](https://takeuforward.org/practice/dsa/accounts-merge) | ⬜ |  | |
-| 41 | [Number of islands II](https://takeuforward.org/practice/dsa/number-of-islands-ii) | ⬜ |  | |
-| 42 | [Making a large island](https://takeuforward.org/practice/dsa/making-a-large-island) | ⬜ |  | |
-| 43 | [Most stones removed with same row or column](https://takeuforward.org/practice/dsa/most-stones-removed-with-same-row-or-column) | ⬜ |  | |
+> **Concept** — Colorier le graphe avec deux couleurs sans que deux voisins aient la même.
 
-### Additional Algorithms
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 21 | [can color](https://structy.net/problems/premium/can-color) | ⭐ Obligatoire | Structy | ⬜ |
+| 22 | [tolerant teams](https://structy.net/problems/premium/tolerant-teams) | Pour creuser | Structy | ⬜ |
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 44 | [Kosaraju's algorithm](https://takeuforward.org/practice/dsa/kosaraju's-algorithm) | ⬜ |  | |
-| 45 | [Bridges in graph](https://takeuforward.org/practice/dsa/bridges-in-graph) | ⬜ |  | |
-| 46 | [Articulation point in graph](https://takeuforward.org/practice/dsa/articulation-point-in-graph) | ⬜ |  | |
+### 6. Union-Find
+
+> **Concept** — Regrouper des nœuds en ensembles et savoir en presque O(1) s'ils sont connectés.
+
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 23 | [union find code I](https://structy.net/problems/premium/union-find-code-i) | ⭐ Obligatoire | Structy | ⬜ |
+| 24 | [union find code II](https://structy.net/problems/premium/union-find-code-ii) | Pour creuser | Structy | ⬜ |
+| 25 | [extra cable](https://structy.net/problems/premium/extra-cable) | Pour creuser | Structy | ⬜ |
+| 26 | [rare routing](https://structy.net/problems/premium/rare-routing) | Pour creuser | Structy | ⬜ |
+
+### 7. Plus court chemin pondéré
+
+> **Concept** — Avec des poids, le BFS ne suffit plus : Dijkstra prend toujours le nœud le plus proche avec une priority queue.
+
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 27 | [weighted graph min path](https://structy.net/problems/premium/weighted-graph-min-path) | ⭐ Obligatoire | Structy | ⬜ |
+| 28 | [lowest toll](https://structy.net/problems/premium/lowest-toll) | Pour creuser | Structy | ⬜ |
+| 29 | [Bellman ford algorithm](https://takeuforward.org/practice/dsa/bellman-ford-algorithm) | Pour creuser | Striver | ⬜ |
+
+### 8. Arbre couvrant minimum (MST)
+
+> **Concept** — Relier tous les nœuds avec un coût total minimal (Prim ou Kruskal). · [📖 Cours Striver](https://takeuforward.org/learning/dsa/mst-theory)
+
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 30 | [Find the MST weight](https://takeuforward.org/practice/dsa/find-the-mst-weight) | ⭐ Obligatoire | Striver | ⬜ |

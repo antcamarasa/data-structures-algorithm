@@ -33,39 +33,54 @@
 
 ## Exercices
 
-**Progression : 0 / 13** · ✅ fait : 0 · 🟡 en cours : 0 · ⬜ à faire : 13
+**Progression** · ⭐ Obligatoires : 0 / 11 · Pour creuser : 0 / 9
 
-Source : [Striver A2Z DSA Sheet](https://takeuforward.org/prep-hub/strivers-a2z-dsa-sheet) + mes exercices du projet DSA.
+Statut : ✅ fait · 🟡 en cours · ⬜ à faire
 
-### Pattern and Template
+### 1. Deux pointeurs
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 1 | [Theory](https://takeuforward.org/learning/dsa/theory) | ⬜ |  | |
+> **Concept** — Deux indices qui avancent l'un vers l'autre ou dans le même sens pour éviter une double boucle. · [📖 Cours Striver](https://takeuforward.org/learning/dsa/theory)
 
-### Constant Window
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 1 | [is palindrome](https://structy.net/problems/premium/is-palindrome) | ⭐ Obligatoire | Structy | ⬜ |
+| 2 | [uncompress](https://structy.net/problems/premium/uncompress) | ⭐ Obligatoire | Structy | ⬜ |
+| 3 | [compress](https://structy.net/problems/premium/compress) | ⭐ Obligatoire | Structy | ⬜ |
+| 4 | [five sort](https://structy.net/problems/premium/five-sort) | ⭐ Obligatoire | Structy | ⬜ |
+| 5 | [is subsequence](https://structy.net/problems/premium/is-subsequence) | ⭐ Obligatoire | Structy | ⬜ |
+| 6 | [3 Sum](https://takeuforward.org/practice/dsa/3-sum) | Pour creuser | Striver | ⬜ |
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 2 | [Maximum Points You Can Obtain from Cards](https://takeuforward.org/practice/dsa/maximum-points-you-can-obtain-from-cards-) | ⬜ |  | |
+### 2. Fenêtre de taille fixe
 
-### Longest and Smallest Window Problems
+> **Concept** — Faire glisser une fenêtre de k éléments en ajoutant l'élément qui entre et en retirant celui qui sort.
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 3 | [Longest Substring Without Repeating Characters](https://takeuforward.org/practice/dsa/longest-substring-without-repeating-characters) | ⬜ |  | |
-| 4 | [Max Consecutive Ones III](https://takeuforward.org/practice/dsa/max-consecutive-ones-iii) | ⬜ |  | |
-| 5 | [Fruit Into Baskets](https://takeuforward.org/practice/dsa/fruit-into-baskets) | ⬜ |  | |
-| 6 | [Longest Substring With At Most K Distinct Characters](https://takeuforward.org/practice/dsa/longest-substring-with-at-most-k-distinct-characters) | ⬜ |  | |
-| 7 | [Longest Repeating Character Replacement](https://takeuforward.org/practice/dsa/longest-repeating-character-replacement) | ⬜ |  | |
-| 8 | [Minimum Window Substring](https://takeuforward.org/practice/dsa/minimum-window-substring-) | ⬜ |  | |
-| 9 | [Minimum Window Subsequence](https://takeuforward.org/practice/dsa/minimum-window-subsequence) | ⬜ |  | |
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 7 | [max subarray sum size k](https://structy.net/problems/max-subarray-sum-size-k) | ⭐ Obligatoire | Structy | ⬜ |
+| 8 | [subarray target sum size k](https://structy.net/problems/subarray-target-sum-size-k) | ⭐ Obligatoire | Structy | ⬜ |
+| 9 | [has substring anagram](https://structy.net/problems/has-substring-anagram) | ⭐ Obligatoire | Structy | ⬜ |
+| 10 | [max subarray product size k](https://structy.net/problems/max-subarray-product-size-k) | Pour creuser | Structy | ⬜ |
+| 11 | [count substring anagrams](https://structy.net/problems/count-substring-anagrams) | Pour creuser | Structy | ⬜ |
 
-### Counting Subarrays / Substrings Problems
+### 3. Fenêtre de taille variable
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 10 | [Number of Substrings Containing All Three Characters](https://takeuforward.org/practice/dsa/number-of-substrings-containing-all-three-characters) | ⬜ |  | |
-| 11 | [Binary Subarrays With Sum](https://takeuforward.org/practice/dsa/binary-subarrays-with-sum) | ⬜ |  | |
-| 12 | [Count number of Nice subarrays](https://takeuforward.org/practice/dsa/count-number-of-nice-subarrays) | ⬜ |  | |
-| 13 | [Subarrays with K Different Integers](https://takeuforward.org/practice/dsa/subarrays-with-k-different-integers) | ⬜ |  | |
+> **Concept** — Agrandir la fenêtre à droite, la réduire à gauche dès qu'elle ne respecte plus la condition.
+
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 12 | [find subarray sum](https://structy.net/problems/find-subarray-sum) | ⭐ Obligatoire | Structy | ⬜ |
+| 13 | [longest subarray sum](https://structy.net/problems/longest-subarray-sum) | ⭐ Obligatoire | Structy | ⬜ |
+| 14 | [longest unique substring](https://structy.net/problems/longest-unique-substring) | ⭐ Obligatoire | Structy | ⬜ |
+| 15 | [longest two char substring](https://structy.net/problems/premium/longest-two-char-substring) | Pour creuser | Structy | ⬜ |
+| 16 | [max ones with single flip](https://structy.net/problems/premium/max-ones-with-single-flip) | Pour creuser | Structy | ⬜ |
+| 17 | [Minimum Window Substring](https://takeuforward.org/practice/dsa/minimum-window-substring-) | Pour creuser | Striver | ⬜ |
+
+### 4. Compter les sous-tableaux
+
+> **Concept** — Compter les fenêtres valides : « exactement k » = « au plus k » − « au plus k−1 ».
+
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 18 | [count subarray product](https://structy.net/problems/premium/count-subarray-product) | Pour creuser | Structy | ⬜ |
+| 19 | [count substring at most k distinct](https://structy.net/problems/premium/count-substring-at-most-k-distinct) | Pour creuser | Structy | ⬜ |
+| 20 | [count substring exactly k distinct](https://structy.net/problems/premium/count-substring-exactly-k-distinct) | Pour creuser | Structy | ⬜ |

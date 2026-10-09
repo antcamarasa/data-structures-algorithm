@@ -59,69 +59,66 @@
 
 ## Exercices
 
-**Progression : 0 / 33** · ✅ fait : 0 · 🟡 en cours : 1 · ⬜ à faire : 32
+**Progression** · ⭐ Obligatoires : 0 / 10 · Pour creuser : 0 / 15
 
-Source : [Striver A2Z DSA Sheet](https://takeuforward.org/prep-hub/strivers-a2z-dsa-sheet) + mes exercices du projet DSA.
+Statut : ✅ fait · 🟡 en cours · ⬜ à faire
 
-### Theory/Traversals
+### 1. Parcours en profondeur et en largeur
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 1 | [Introduction](https://takeuforward.org/learning/dsa/introduction-) | ⬜ |  | |
-| 2 | [Inorder Traversal](https://takeuforward.org/practice/dsa/inorder-traversal) | ⬜ |  | |
-| 3 | [Preorder Traversal](https://takeuforward.org/practice/dsa/preorder-traversal) | ⬜ |  | |
-| 4 | [Postorder Traversal](https://takeuforward.org/practice/dsa/postorder-traversal) | ⬜ |  | |
-| 5 | [Level Order Traversal](https://takeuforward.org/practice/dsa/level-order-traversal) | ⬜ |  | |
-| 6 | [Pre, Post, Inorder in one traversal](https://takeuforward.org/practice/dsa/pre%2C-post%2C-inorder-in-one-traversal) | ⬜ |  | |
+> **Concept** — DFS avec une pile (ou la récursion), BFS avec une file : les deux façons de visiter un arbre. · [📖 Cours Striver](https://takeuforward.org/learning/dsa/introduction-)
 
-### Medium Problems
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 1 | [depth first values](https://structy.net/problems/depth-first-values) | ⭐ Obligatoire | Structy | ⬜ |
+| 2 | [breadth first values](https://structy.net/problems/breadth-first-values) | ⭐ Obligatoire | Structy | ⬜ |
+| 3 | [post order](https://structy.net/problems/premium/post-order) | ⭐ Obligatoire | Structy | ⬜ |
+| 4 | [tree levels](https://structy.net/problems/premium/tree-levels) | ⭐ Obligatoire | Structy | ⬜ |
+| 5 | [level averages](https://structy.net/problems/premium/level-averages) | Pour creuser | Structy | ⬜ |
+| 6 | [bottom right value](https://structy.net/problems/premium/bottom-right-value) | Pour creuser | Structy | ⬜ |
+| 7 | [lefty nodes](https://structy.net/problems/premium/lefty-nodes) | Pour creuser | Structy | ⬜ |
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 7 | [Maximum Depth in BT](https://takeuforward.org/practice/dsa/maximum-depth-in-bt) | ⬜ |  | |
-| 8 | [Check if two trees are identical or not](https://takeuforward.org/practice/dsa/check-if-two-trees-are-identical-or-not) | ⬜ |  | |
-| 9 | [Check for balanced binary tree](https://takeuforward.org/practice/dsa/check-for-balanced-binary-tree) | ⬜ |  | |
-| 10 | [Diameter of Binary Tree](https://takeuforward.org/practice/dsa/diameter-of-binary-tree) | ⬜ |  | |
-| 11 | [Maximum path sum](https://takeuforward.org/practice/dsa/maximum-path-sum-) | ⬜ |  | |
-| 12 | [Check for symmetrical BTs](https://takeuforward.org/practice/dsa/check-for-symmetrical-bts) | ⬜ |  | |
-| 13 | [Children Sum Property in Binary Tree](https://takeuforward.org/practice/dsa/children-sum-property-in-binary-tree) | ⬜ |  | |
+### 2. Calculer sur un arbre
 
-### FAQs
+> **Concept** — Combiner les résultats des sous-arbres gauche et droit pour obtenir celui du nœud.
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 14 | [Zig Zag or Spiral Traversal](https://takeuforward.org/practice/dsa/zig-zag-or-spiral-traversal) | ⬜ |  | |
-| 15 | [Boundary Traversal](https://takeuforward.org/practice/dsa/boundary-traversal) | ⬜ |  | |
-| 16 | [Vertical Order Traversal](https://takeuforward.org/practice/dsa/vertical-order-traversal) | ⬜ |  | |
-| 17 | [Top View of BT](https://takeuforward.org/practice/dsa/top-view-of-bt) | ⬜ |  | |
-| 18 | [Bottom view of BT](https://takeuforward.org/practice/dsa/bottom-view-of-bt) | ⬜ |  | |
-| 19 | [Right/Left View of BT](https://takeuforward.org/practice/dsa/right-left-view-of-bt) | ⬜ |  | |
-| 20 | [Print root to leaf path in BT](https://takeuforward.org/practice/dsa/print-root-to-leaf-path-in-bt) | ⬜ |  | |
-| 21 | [LCA in BT](https://takeuforward.org/practice/dsa/lca-in-bt) | ⬜ |  | |
-| 22 | [Maximum Width of BT](https://takeuforward.org/practice/dsa/maximum-width-of-bt) | ⬜ |  | |
-| 23 | [Print all nodes at a distance of K in BT](https://takeuforward.org/practice/dsa/print-all-nodes-at-a-distance-of-k-in-bt) | ⬜ |  | |
-| 24 | [Minimum time taken to burn the BT from a given Node](https://takeuforward.org/practice/dsa/minimum-time-taken-to-burn-the-bt-from-a-given-node) | ⬜ |  | |
-| 25 | [Count total nodes in a complete BT](https://takeuforward.org/practice/dsa/count-total-nodes-in-a-complete-bt) | ⬜ |  | |
-| 26 | [Flatten Binary Tree to Linked List](https://takeuforward.org/practice/dsa/flatten-binary-tree-to-linked-list) | ⬜ |  | |
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 8 | [tree sum](https://structy.net/problems/tree-sum) | ⭐ Obligatoire | Structy | ⬜ |
+| 9 | [tree includes](https://structy.net/problems/tree-includes) | ⭐ Obligatoire | Structy | ⬜ |
+| 10 | [tree min value](https://structy.net/problems/tree-min-value) | Pour creuser | Structy | ⬜ |
+| 11 | [tree value count](https://structy.net/problems/premium/tree-value-count) | Pour creuser | Structy | ⬜ |
+| 12 | [how high](https://structy.net/problems/premium/how-high) | ⭐ Obligatoire | Structy | ⬜ |
+| 13 | [is tree balanced](https://structy.net/problems/premium/is-tree-balanced) | Pour creuser | Structy | ⬜ |
+| 14 | [flip tree](https://structy.net/problems/premium/flip-tree) | Pour creuser | Structy | ⬜ |
+| 15 | [Diameter of Binary Tree](https://takeuforward.org/practice/dsa/diameter-of-binary-tree) | Pour creuser | Striver | ⬜ |
 
-### Construction Problems
+### 3. Chemins racine → feuille
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 27 | [Requirements needed to construct a unique BT](https://takeuforward.org/practice/dsa/requirements-needed-to-construct-a-unique-bt) | ⬜ |  | |
-| 28 | [Construct a BT from Preorder and Inorder](https://takeuforward.org/practice/dsa/construct-a-bt-from-preorder-and-inorder) | ⬜ |  | |
-| 29 | [Construct a BT from Postorder and Inorder](https://takeuforward.org/practice/dsa/construct-a-bt-from-postorder-and-inorder) | ⬜ |  | |
-| 30 | [Serialize and De-serialize BT](https://takeuforward.org/practice/dsa/serialize-and-de-serialize-bt) | ⬜ |  | |
+> **Concept** — Construire ou évaluer les chemins en transmettant l'information de la racine vers les feuilles.
 
-### Traversal in Constant Space
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 16 | [max root to leaf path sum](https://structy.net/problems/max-root-to-leaf-path-sum) | ⭐ Obligatoire | Structy | ⬜ |
+| 17 | [tree path finder](https://structy.net/problems/premium/tree-path-finder) | ⭐ Obligatoire | Structy | ⬜ |
+| 18 | [all tree paths](https://structy.net/problems/premium/all-tree-paths) | Pour creuser | Structy | ⬜ |
+| 19 | [has path sum](https://structy.net/problems/premium/has-path-sum) | Pour creuser | Structy | ⬜ |
+| 20 | [leaf list](https://structy.net/problems/premium/leaf-list) | Pour creuser | Structy | ⬜ |
+| 21 | [leaf layers](https://structy.net/problems/premium/leaf-layers) | Pour creuser | Structy | ⬜ |
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 31 | [Morris Inorder Traversal](https://takeuforward.org/practice/dsa/morris-inorder-traversal-) | ⬜ |  | |
-| 32 | [Morris Preorder Traversal](https://takeuforward.org/practice/dsa/morris-preorder-traversal-) | ⬜ |  | |
+### 4. Ancêtre commun
 
-### Mes exercices (projet DSA)
+> **Concept** — Retrouver le premier nœud commun aux chemins de deux nœuds.
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 33 | Implémentation Binary Tree | 🟡 | [BinaryTreeImplementation.java](implementation/BinaryTreeImplementation.java) · [BinaryTree.java](implementation/BinaryTree.java) |  |
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 22 | [lowest common ancestor](https://structy.net/problems/premium/lowest-common-ancestor) | ⭐ Obligatoire | Structy | ⬜ |
+
+### 5. Construire un arbre
+
+> **Concept** — Reconstruire un arbre à partir de ses parcours, ou le transformer en liste.
+
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 23 | [build tree in pre](https://structy.net/problems/premium/build-tree-in-pre) | Pour creuser | Structy | ⬜ |
+| 24 | [build tree in post](https://structy.net/problems/premium/build-tree-in-post) | Pour creuser | Structy | ⬜ |
+| 25 | [flatten tree](https://structy.net/problems/premium/flatten-tree) | Pour creuser | Structy | ⬜ |

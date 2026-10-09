@@ -46,77 +46,57 @@
 
 ## Exercices
 
-**Progression : 3 / 36** · ✅ fait : 3 · 🟡 en cours : 1 · ⬜ à faire : 32
+**Progression** · ⭐ Obligatoires : 0 / 10 · Pour creuser : 0 / 6
 
-Source : [Striver A2Z DSA Sheet](https://takeuforward.org/prep-hub/strivers-a2z-dsa-sheet) + mes exercices du projet DSA.
+Statut : ✅ fait · 🟡 en cours · ⬜ à faire
 
-### Basic Recursion
+### 1. Récursion linéaire
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 1 | [Recursion Theory](https://takeuforward.org/learning/dsa/recursion-theory) | ⬜ |  | |
-| 2 | [Recursion Concepts with Parameters](https://takeuforward.org/learning/dsa/recursion-concepts-with-parameters) | ⬜ |  | |
-| 3 | [Sum of First N Numbers](https://takeuforward.org/practice/dsa/sum-of-first-n-numbers) | ⬜ |  | |
-| 4 | [Factorial of a Given Number](https://takeuforward.org/practice/dsa/factorial-of-a-given-number-ii) | ⬜ |  | |
-| 5 | [Sum of Array Elements II](https://takeuforward.org/practice/dsa/sum-of-array-elements-ii) | ⬜ |  | |
-| 6 | [Reverse a String I](https://takeuforward.org/practice/dsa/reverse-a-string-i) | ⬜ |  | |
-| 7 | [Check if String is Palindrome or Not](https://takeuforward.org/practice/dsa/check-if-string-is-palindrome-or-not-) | ⬜ |  | |
-| 8 | [Check if a Number is Prime or Not](https://takeuforward.org/practice/dsa/check-if-a-number-is-prime-or-not) | ⬜ |  | |
-| 9 | [Reverse an array 2](https://takeuforward.org/practice/dsa/reverse-an-array-ii) | ⬜ |  | |
-| 10 | [Check if the Array is Sorted II](https://takeuforward.org/practice/dsa/check-if-the-array-is-sorted-ii) | ⬜ |  | |
-| 11 | [Sum of Digits in a Given Number](https://takeuforward.org/practice/dsa/sum-of-digits-in-a-given-number) | ⬜ |  | |
-| 12 | [Fibonacci Number](https://takeuforward.org/practice/dsa/fibonacci-number) | ⬜ |  | |
+> **Concept** — Un seul appel récursif par étape : on réduit le problème d'un élément jusqu'au cas de base. · [📖 Cours Striver](https://takeuforward.org/learning/dsa/recursion-theory)
 
-### Implementation Problems
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 1 | [sum numbers recursive](https://structy.net/problems/sum-numbers-recursive) | ⭐ Obligatoire | Structy | ⬜ |
+| 2 | [factorial](https://structy.net/problems/premium/factorial) | ⭐ Obligatoire | Structy | ⬜ |
+| 3 | [sum of lengths](https://structy.net/problems/premium/sum-of-lengths) | Pour creuser | Structy | ⬜ |
+| 4 | [reverse-string-recursive](https://structy.net/problems/premium/reverse-string-recursive) | ⭐ Obligatoire | Structy | ⬜ |
+| 5 | [palindrome-recursive](https://structy.net/problems/premium/palindrome-recursive) | ⭐ Obligatoire | Structy | ⬜ |
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 13 | [Pow(x,n)](https://takeuforward.org/practice/dsa/pow(x%2Cn)) | ⬜ |  | |
-| 14 | [Generate Parentheses](https://takeuforward.org/practice/dsa/generate-parentheses) | ✅ | [GenerateParenthesis.java](../backtracking/exercices/GenerateParenthesis.java) | |
-| 15 | [Power Set](https://takeuforward.org/practice/dsa/power-set) | 🟡 | [Subsequence.java](../backtracking/exercices/subset/Subsequence.java) | Test en échec |
-| 16 | [Count Good Numbers](https://takeuforward.org/practice/dsa/count-good-numbers) | ⬜ |  | |
-| 17 | [Reverse a Stack](https://takeuforward.org/practice/dsa/reverse-a-stack) | ⬜ |  | |
+### 2. Récursion multiple
 
-### Subsequence Pattern Problems
+> **Concept** — Plusieurs appels récursifs par étape : l'arbre d'appels grandit de façon exponentielle.
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 18 | [Learn All Patterns of Subsequences (Theory)](https://takeuforward.org/learning/dsa/learn-all-patterns-of-subsequences) | ⬜ |  | |
-| 19 | [Check if there exists a subsequence with sum K](https://takeuforward.org/practice/dsa/check-if-there-exists-a-subsequence-with-sum-k) | ⬜ |  | |
-| 20 | [Count all subsequences with sum K](https://takeuforward.org/practice/dsa/count-all-subsequences-with-sum-k) | ⬜ |  | |
-| 21 | [Generate Binary Strings Without Consecutive 1s](https://takeuforward.org/practice/dsa/generate-binary-strings-without-consecutive-1s) | ⬜ |  | |
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 6 | [fibonacci](https://structy.net/problems/premium/fibonacci) | ⭐ Obligatoire | Structy | ⬜ |
 
-### FAQs (Medium)
+### 3. Générer toutes les possibilités
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 22 | [Combination Sum](https://takeuforward.org/practice/dsa/combination-sum) | ⬜ |  | |
-| 23 | [Combination Sum II](https://takeuforward.org/practice/dsa/combination-sum-ii) | ⬜ |  | |
-| 24 | [Subsets I](https://takeuforward.org/practice/dsa/subsets-i) | ⬜ |  | |
-| 25 | [Subsets II](https://takeuforward.org/practice/dsa/subsets-ii) | ⬜ |  | |
-| 26 | [Combination Sum III](https://takeuforward.org/practice/dsa/combination-sum-iii) | ⬜ |  | |
+> **Concept** — Explorer tous les choix (prendre / ne pas prendre, ordre des éléments) pour énumérer sous-ensembles, permutations et combinaisons. · [📖 Cours Striver](https://takeuforward.org/learning/dsa/learn-all-patterns-of-subsequences)
 
-### Hard
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 7 | [subsets](https://structy.net/problems/premium/subsets) | ⭐ Obligatoire | Structy | ⬜ |
+| 8 | [permutations](https://structy.net/problems/premium/permutations) | ⭐ Obligatoire | Structy | ⬜ |
+| 9 | [create combinations](https://structy.net/problems/premium/create-combinations) | ⭐ Obligatoire | Structy | ⬜ |
+| 10 | [lining up](https://structy.net/problems/premium/lining-up) | Pour creuser | Structy | ⬜ |
+| 11 | [parenthetical possibilities](https://structy.net/problems/premium/parenthetical-possibilities) | Pour creuser | Structy | ⬜ |
+| 12 | [substitute synonyms](https://structy.net/problems/premium/substitute-synonyms) | Pour creuser | Structy | ⬜ |
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 27 | [Letter Combinations of a Phone Number](https://takeuforward.org/practice/dsa/letter-combinations-of-a-phone-number) | ⬜ |  | |
+### 4. Explorer avec contraintes
 
-### FAQs (Hard)
+> **Concept** — Générer les possibilités en abandonnant une branche dès qu'elle ne respecte plus la contrainte.
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 28 | [Palindrome partitioning](https://takeuforward.org/practice/dsa/palindrome-partitioning) | ⬜ |  | |
-| 29 | [Word Search](https://takeuforward.org/practice/dsa/word-search) | ⬜ |  | |
-| 30 | [N Queen](https://takeuforward.org/practice/dsa/n-queen) | ⬜ |  | |
-| 31 | [Rat in a Maze](https://takeuforward.org/practice/dsa/rat-in-a-maze) | ⬜ |  | |
-| 32 | [M Coloring Problem](https://takeuforward.org/practice/dsa/m-coloring-problem) | ⬜ |  | |
-| 33 | [Sudoku Solver](https://takeuforward.org/practice/dsa/sudoko-solver) | ⬜ |  | |
-| 34 | [Expression Add Operators](https://takeuforward.org/practice/dsa/expression-add-operators) | ⬜ |  | |
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 13 | [grocery budget](https://structy.net/problems/premium/grocery-budget) | ⭐ Obligatoire | Structy | ⬜ |
+| 14 | [possible paths](https://structy.net/problems/premium/possible-paths) | Pour creuser | Structy | ⬜ |
 
-### Mes exercices (projet DSA)
+### 5. Backtracking
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 35 | Combinations (n, k) | ✅ | [Combinations.java](../backtracking/exercices/combinations/Combinations.java) |  |
-| 36 | Permutations | ✅ | [Permutations.java](../backtracking/exercices/permutations/Permutations.java) |  |
+> **Concept** — Placer un choix, explorer, puis l'annuler si on est bloqué. C'est la méthode du solveur de sudoku.
+
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 15 | [N Queen](https://takeuforward.org/practice/dsa/n-queen) | ⭐ Obligatoire | Striver | ⬜ |
+| 16 | [Sudoku Solver](https://takeuforward.org/practice/dsa/sudoko-solver) | Pour creuser | Striver | ⬜ |

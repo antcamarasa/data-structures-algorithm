@@ -59,36 +59,25 @@
 
 ## Exercices
 
-**Progression : 0 / 15** · ✅ fait : 0 · 🟡 en cours : 0 · ⬜ à faire : 15
+**Progression** · ⭐ Obligatoires : 0 / 4 · Pour creuser : 0 / 1
 
-Source : [Striver A2Z DSA Sheet](https://takeuforward.org/prep-hub/strivers-a2z-dsa-sheet) + mes exercices du projet DSA.
+Statut : ✅ fait · 🟡 en cours · ⬜ à faire
 
-### Theory and Basics
+### 1. Chercher dans un BST
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 1 | [Introduction to BST](https://takeuforward.org/learning/dsa/introduction-to-bst) | ⬜ |  | |
-| 2 | [Search in BST](https://takeuforward.org/practice/dsa/search-in-bst) | ⬜ |  | |
-| 3 | [Floor and Ceil in a BST](https://takeuforward.org/practice/dsa/floor-and-ceil-in-a-bst) | ⬜ |  | |
-| 4 | [Minimum and Maximum in BST](https://takeuforward.org/practice/dsa/minimum-and-maximum-in-bst) | ⬜ |  | |
+> **Concept** — À chaque nœud, la valeur indique s'il faut aller à gauche ou à droite. · [📖 Cours Striver](https://takeuforward.org/learning/dsa/introduction-to-bst)
 
-### Medium
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 1 | [binary search tree includes](https://structy.net/problems/premium/binary-search-tree-includes) | ⭐ Obligatoire | Structy | ⬜ |
+| 2 | [is binary search tree](https://structy.net/problems/premium/is-binary-search-tree) | ⭐ Obligatoire | Structy | ⬜ |
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 5 | [Insert a given node in BST](https://takeuforward.org/practice/dsa/insert-a-given-node-in-bst) | ⬜ |  | |
-| 6 | [Delete a node in BST](https://takeuforward.org/practice/dsa/delete-a-node-in-bst) | ⬜ |  | |
-| 7 | [Kth Smallest and Largest element in BST](https://takeuforward.org/practice/dsa/kth-smallest-and-largest-element-in-bst) | ⬜ |  | |
-| 8 | [Check if a tree is a BST or not](https://takeuforward.org/practice/dsa/check-if-a-tree-is-a-bst-or-not) | ⬜ |  | |
-| 9 | [LCA in BST](https://takeuforward.org/practice/dsa/lca-in-bst) | ⬜ |  | |
-| 10 | [Construct a BST from a preorder traversal](https://takeuforward.org/practice/dsa/construct-a-bst-from-a-preorder-traversal) | ⬜ |  | |
-| 11 | [Inorder successor and predecessor in BST](https://takeuforward.org/practice/dsa/inorder-successor-and-predecessor-in-bst) | ⬜ |  | |
+### 2. Modifier un BST
 
-### FAQs
+> **Concept** — Insérer ou supprimer une valeur en préservant l'ordre gauche < nœud < droite.
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 12 | [BST iterator](https://takeuforward.org/practice/dsa/bst-iterator) | ⬜ |  | |
-| 13 | [Two sum in BST](https://takeuforward.org/practice/dsa/two-sum-in-bst) | ⬜ |  | |
-| 14 | [Correct BST with two nodes swapped](https://takeuforward.org/practice/dsa/correct-bst-with-two-nodes-swapped) | ⬜ |  | |
-| 15 | [Largest BST in Binary Tree](https://takeuforward.org/practice/dsa/largest-bst-in-binary-tree) | ⬜ |  | |
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 3 | [Insert a given node in BST](https://takeuforward.org/practice/dsa/insert-a-given-node-in-bst) | ⭐ Obligatoire | Striver | ⬜ |
+| 4 | [Delete a node in BST](https://takeuforward.org/practice/dsa/delete-a-node-in-bst) | ⭐ Obligatoire | Striver | ⬜ |
+| 5 | [Kth Smallest and Largest element in BST](https://takeuforward.org/practice/dsa/kth-smallest-and-largest-element-in-bst) | Pour creuser | Striver | ⬜ |

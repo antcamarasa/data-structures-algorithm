@@ -16,12 +16,17 @@
 
 ## Exercices
 
-**Progression : 1 / 1** · ✅ fait : 1 · 🟡 en cours : 0 · ⬜ à faire : 0
+**Progression** · ⭐ Obligatoires : 0 / 2 · Pour creuser : 0 / 2
 
-Source : [Striver A2Z DSA Sheet](https://takeuforward.org/prep-hub/strivers-a2z-dsa-sheet) + mes exercices du projet DSA.
+Statut : ✅ fait · 🟡 en cours · ⬜ à faire
 
-### Mes exercices (projet DSA)
+### 1. Opérations d'ensemble
 
-| # | Problème | Statut | Solution | Notes |
-|---|----------|:------:|----------|-------|
-| 1 | Implémentation HashSet | ✅ | [MyHashSet.java](implementation/MyHashSet.java) |  |
+> **Concept** — Unicité, intersection, différence : le set répond à « est-ce que je l'ai déjà vu ? » en O(1).
+
+| # | Exercice | Priorité | Source | Statut |
+|:-:|----------|----------|--------|:------:|
+| 1 | [intersection](https://structy.net/problems/intersection) | ⭐ Obligatoire | Structy | ⬜ |
+| 2 | [all unique](https://structy.net/problems/premium/all-unique) | ⭐ Obligatoire | Structy | ⬜ |
+| 3 | [exclusive items](https://structy.net/problems/premium/exclusive-items) | Pour creuser | Structy | ⬜ |
+| 4 | [intersection with dupes](https://structy.net/problems/premium/intersection-with-dupes) | Pour creuser | Structy | ⬜ |
