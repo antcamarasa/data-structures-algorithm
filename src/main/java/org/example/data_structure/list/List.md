@@ -43,7 +43,3 @@
 | | |
 
 **À retenir**
-
-## Exercices
-
-Pas de liste d'exercices pour ce chapitre : il se travaille par l'implémentation de la structure.
